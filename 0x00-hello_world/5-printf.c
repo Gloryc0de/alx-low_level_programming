@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- *  main - with proper grammar, but the outcome is a piece of art,, followed by  line.
- *
+ *  main - with proper grammar, but the outcome is a piece of art,, followed by lin  *		e
  *
  * Return: Always 0 (Success)
  *
