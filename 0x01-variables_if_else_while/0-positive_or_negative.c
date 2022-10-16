@@ -1,35 +1,26 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- 
- * main - program will assign a random number to the variable n. 
-
+ * main -  headers goes there
  *
-
- * Return: 0 
-
+ * Return: 0 (success)
+ *
  */
 
 int main(void)
-
 {
 	int n;
-printf(enter your Number)
-scanf("%d",& Num);
-}
-{
-	if(n>0)
-	printf("positive\n");
-}
-{
-	if(n=0)
-	printf("zero\n");
-}
-{
-	if(n>0)
-	printf("negativ\n");
-}
-{
-    return (0);
 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+
+
+	return (0);
 }
