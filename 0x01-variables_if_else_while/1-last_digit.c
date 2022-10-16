@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <string.h>
 /**
- * main -  headers goes there
+ * main - program to find last digit of a number
  *
  * Return: 0 (success)
  *
