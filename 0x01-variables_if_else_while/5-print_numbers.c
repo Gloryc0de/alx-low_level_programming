@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -  prints alphabets in lower case except q $ e
+ * main -  prints all digit numbers of base 10 with printf
  *
  * Return: 0 (success)
  *
