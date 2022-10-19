@@ -1,11 +1,2 @@
-
-# ifdef MAIN.H
-# define MAIN.H 
-
- void print_alphabet(void);
-
-
-
-
-# endif
+int _putchar(char c);
 
