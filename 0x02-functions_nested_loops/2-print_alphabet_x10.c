@@ -11,18 +11,18 @@
 void print_alphabet(void)
 {
 	int i;
-
-	for (i = 1; i <= 10; i++)
-
 	char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-
+	for (i = 1; i <= 10; i++)
 	{
-		_putchar(ch);
+		for (ch = 'a'; ch <= 'z'; ch++)
+
+		{
+			_putchar(ch);
+		{
+
+		_putchar('\n');
 
 	}
-
-	_putchar('\n');
 
 }
