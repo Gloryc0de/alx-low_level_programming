@@ -3,8 +3,8 @@
 
 /**
  * main - checks for a digit 0-9
- * @c: The character to print
- * Return: 1 if uppercase,0 if otherwise
+ * @c: int for the parameters of my function
+ * Return: 1 if digit,0 if otherwise
  */
 int _isdigit(int c)
 {
