@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isdigit(int c) - checks for a digit 0-9
+ * _isdigit - checks for a digit 0-9
  * @c: int for the parameters of my function
  * Return: 1 if digit,0 if otherwise
  */
@@ -12,8 +12,8 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
-`	else
-	{	
+	else
+	{
 		return (0);
 
 	}
