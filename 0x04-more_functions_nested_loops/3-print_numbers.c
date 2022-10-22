@@ -1,21 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - checks for uppercase characters
- * @c: The character to print
- * Return: 1 if uppercase,0 if otherwise
- */
-void print_numbers(void);
-		int
+* main - check the code
+* @n: The number to print
+* Return: Always 0.
+*/
+void print_numbers(void)
 
 {
+	char n = '0';
 
-	if (c >= 65 && c <= 90)
+	while (n <= '9')
+
 	{
-		return (1);
+
+	_putchar(n);
+		n++;
 	}
-		return (0);
+
+	_putchar('\n');
 
 }
-
