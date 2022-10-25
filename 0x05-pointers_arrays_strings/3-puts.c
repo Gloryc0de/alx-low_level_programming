@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
-*_strlen - prints the length og a string followed by a new line to stdout
+*_puts - prints the length og a string followed by a new line to stdout
 *@str: string character
 */
 
