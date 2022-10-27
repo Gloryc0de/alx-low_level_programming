@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* *_strncat - function that concatenates two strings
+* *_strncpy - function that copies a string
 * @dest: deatination string
 * @src: source spointer
 * @n: integer
@@ -18,7 +18,7 @@ char *_strncpy(char *dest, char *src, int n)
 		;
 
 
-	for (; b < a && src[b] != '\0'; b++)
+		for (; b < a && src[b] != '\0'; b++)
 
 		{
 			dest[b] = src[b];
