@@ -2,13 +2,10 @@
 #include <stdio.h>
 /**
 * *string_toupper - function that changes lowercase string to uppercase
-* @a: array of integers
 * @p: string pointer
-* Return: strings
+* Return: string
 */
 char *string_toupper(char *p)
-
-
 {
 
 	int a = 0;
@@ -17,7 +14,7 @@ char *string_toupper(char *p)
 
 
 	{
-		if (p[a] >= 'a' && p[a] <= 'z')
+		if (p[a] >= '97' && p[a] <= '122')
 		{
 			p[a] -= 32;
 
