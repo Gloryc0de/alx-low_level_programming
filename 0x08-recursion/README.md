@@ -1,0 +1,1 @@
+Recursion is the method where the solution to a problem depends on the solutions of the smaller instance of the same problem. It is the process of repeating items in a self similar way. The C programming language supports recursion , i.e a function to call itself.
