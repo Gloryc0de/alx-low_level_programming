@@ -1,0 +1,1 @@
+Arguements to main provide a useful opportunity to give parameters to programs.It's common to provide file names to a program through its arguement. There are at least two arguements to main which are ; argc(a count of the arguements supplied to a program) and argv (an array of pointers to the strings ).
