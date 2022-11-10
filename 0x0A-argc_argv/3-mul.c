@@ -9,7 +9,9 @@
 */
 int main(int argc, char *argv[])
 {
- 	int i; product = 1;
+	int i;
+
+	product = 1;
 
 	if (argc != 3)
 	{
