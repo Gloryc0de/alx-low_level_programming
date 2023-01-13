@@ -21,7 +21,7 @@ int f4(char *usrn, int len)
 	while (vch < len)
 	{
 		if (ch < usrn[vch])
-		 ch = usrn[vch];
+			ch = usrn[vch];
 		vch += 1;
 	}
 
