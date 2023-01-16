@@ -1,0 +1,1 @@
+To create a dynamic library in Linux, simply type the following command: gcc *.c -c -fPIC and hit return. This command essentially generates one object file .o for each source file .c . The -fPIC flag ensures that the code is position-independent.
